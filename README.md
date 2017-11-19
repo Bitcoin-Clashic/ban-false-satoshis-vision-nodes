@@ -1,10 +1,12 @@
-# ban-segshit8x-nodes
+# ban-false-satoshis-vision-nodes
+
+Thanks to @mariodian OC
 
 ## Prerequisites
 Your bitcoind daemon must be running (running just the Bitcoin Core gui is not enough).
 
 ## Linux
-The ban.sh script will ban all fake SegShit8x nodes. The list of nodes is obtained from bitnodes.21.co.
+The ban.sh script will ban all fake FakeSatoshisVision nodes. The list of nodes is obtained from bitnodes.21.co.
 
 ### Requirements for the bash script (ban.sh)
 Command-line JSON processor `jq`.
@@ -34,8 +36,8 @@ sudo cpan -i JSON::XS
 
 ### Download and use the script
 ````
-git clone https://github.com/mariodian/ban-segshit8x-nodes.git
-cd ban-segshit8x-nodes
+git clone https://github.com/Bitcoin-Clashic/ban-false-satoshis-vision-nodes.git
+cd ban-false-satoshis-vision-nodes
 ````
 
 #### Run the bash script
